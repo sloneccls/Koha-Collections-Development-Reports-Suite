@@ -1,0 +1,30 @@
+/*add sorting arrows to report results, updated 6/26/20 for 19 11 changes*/
+
+
+th.reportsort {
+  position: relative;
+  cursor: pointer;
+  z-index: 0;
+  padding-right: 15px;
+}
+
+th.reportsort::after {
+  font-family: FontAwesome;
+  content: "\f0dc";
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  color: #999;
+}
+
+th.reportsort.asc::after {
+  content: "\f0d8";
+}
+
+th.reportsort.desc::after {
+  content: "\f0d7";
+}
+
+th.reportsort:hover::after {
+  color: #333;
+}

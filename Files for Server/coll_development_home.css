@@ -1,0 +1,142 @@
+.col-sm-10 > main:nth-child(1) > p:nth-child(4) {
+	display:none;
+}
+
+
+.col-sm-10 > main:nth-child(1) > p:nth-child(3) {
+	display: none;
+}
+
+
+.col-sm-2 {
+	display: none;
+}
+
+
+.btn-toolbar {
+	display:none;
+}
+
+#limitselect {
+	display: none;
+}
+
+.reporttype {
+	font-size: 18px; ; 
+	white-space: nowrap;
+  overflow: auto;
+
+}
+
+.reportdesc {
+	width: 500px;
+}
+
+.reportcol {
+	font-size: 16px;
+	color: #000000;
+	padding-left: 20px;
+}
+
+.reportname {
+
+}
+
+.reportname img {
+	width: 30px; 
+	height: 30px;
+  margin-inline-start: 10px;
+	margin-right: 10px;
+
+}
+
+.reportname a:link, .reportname a:visited {
+ background-color: #f4f8f9;
+background-position: 5px 3px;
+background-repeat: no-repeat;
+border: 2px solid #b9d8d9;
+    border-top-color: rgb(185, 216, 217);
+    border-right-color: rgb(185, 216, 217);
+    border-bottom-color: rgb(185, 216, 217);
+    border-left-color: rgb(185, 216, 217);
+border-radius: 6px;
+box-sizing: content-box;
+color: #000;
+display: block;
+font-size: 110%;
+font-weight: 700;
+margin: .5em 0;
+max-width: 180px;
+min-width: 180px;	
+padding: 8px;
+text-decoration: none;
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+margin-inline-start: 30px;
+
+}
+
+.reportname a:active, .reportname a:hover {
+    color: #538200;
+    text-decoration: none;
+}
+
+.reportname a:hover, .reportname a:focus {
+    text-decoration: none;
+	  color: #538200;
+    border-color: #538200;
+}
+.reportname a:active, .reportname a:hover {
+    outline: 0;
+}
+
+th.reportsort {
+	pointer-events: none;
+  cursor: default;
+  
+}
+
+th.reportsort::after {
+  font-family: FontAwesome;
+  content: ""}
+
+
+th {
+	background: none;
+	border: none;
+	font-size: 18px;
+	width: 250px;
+}
+
+td {
+	background: none;
+	border: none;
+}
+
+tr {
+	background-color: none;
+	border: none;
+}
+
+table {
+	border: none;
+}
+
+
+tbody tr:nth-child(2n+1) td {
+    background-color: #fff;
+    border: 1px solid #fff;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: #fff;
+    border-right: 1px solid #fff;
+	border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #fff;
+    border-left: 1px solid #fff;
+}
+
+#params_sec {
+	display:none;
+}

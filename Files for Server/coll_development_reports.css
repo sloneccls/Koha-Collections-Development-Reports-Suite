@@ -1,0 +1,125 @@
+
+
+.btn-group .btn{
+	display:none;
+	
+}
+
+* .btn-group #runreport, .btn-group #format, .btn-group .toggle_sql, #changeset {
+	
+ display:block;
+ 
+}
+
+.pages {
+	display: none !important;
+}
+
+
+.col-sm-10 > main:nth-child(1) > p:nth-child(3) {
+	display: none;
+}
+
+
+.col-sm-2 {
+	display: none;
+}
+
+
+
+
+#limitselect {
+	display: none;
+}
+
+.coldevli {
+	position: absolute;
+	top: auto;
+	left: -290px; 
+	}
+	
+	
+	
+#params_used {
+	max-width: 500px;
+	column-count: 2;
+	
+}
+
+
+#params_sec {
+	max-width: 500px;;
+	background-color: #f4f8f9;
+border: 2px solid #b9d8d9;
+border-radius: 5px;
+margin: 1em 1em 1em 0;
+    margin-right: 1em;
+padding: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+  
+
+#\@branch:before{
+	content:'Branch: ';
+	font-weight: bold;
+}
+
+
+#\@wnum:before{
+	content:'Worn threshold: ';
+	font-weight: bold;
+}
+
+/*#\@lost:before{
+	content:'Lost/missing items: ';
+	font-weight: bold;
+}*/
+
+#\@audi:before{
+	content:'Audience(s): ';
+	font-weight: bold;
+}
+#\@type:before{
+	content:'Item type(s): ';
+	font-weight: bold;
+}
+#\@col:before{
+	content:'Collection(s): ';
+	font-weight: bold;
+}
+
+#\@stcall:before{
+	content:'Call numbers between: ';
+	font-weight: bold;
+}
+
+#\@ecall:before{
+	content:' and ';
+	font-weight: bold;
+}
+
+#\@pubd:before{
+	content:'Published before: ';
+	font-weight: bold;
+}
+
+#\@ncir:before{
+	content:'Years not circulated: ';
+	font-weight: bold;
+}
+
+#\@bib:before{
+	content:'Bib number: ';
+	font-weight: bold;
+}
+#\@worn:before{
+	content:'Max circs for replacements: ';
+	font-weight: bold;
+}
+
+
+
+
