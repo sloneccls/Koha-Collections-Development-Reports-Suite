@@ -1,5 +1,7 @@
 # Koha-Collections-Development-Reports-Suite
-Faking a Collections Development Module for Koha (or How to Use Koha’s Report Module to Do Just About Anything)
+Faking a Collections Development Module for Koha 
+(or How to Use Koha’s Report Module to Do Just About Anything)
+
 An Overview
 
 Koha’s report module is one of the things that makes the system so versatile. Not only does it let you write rather complicated SQL queries, but it will interpret html markup too. The latter allows you to put hyperlinks to records directly in a report, apply formatting and styling (especially by adding custom CSS) to the results, and even pull custom scripts in from another location. This module is really just a collection of reports, some of them indeed quite complicated, that have used CSS and jQuery to transform the results into something that is more user friendly to most staff.
