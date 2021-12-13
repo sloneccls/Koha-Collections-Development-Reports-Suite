@@ -14,7 +14,7 @@ An Overview
 
   Hiding the options on the report parameters screens had to be done through clunky wording and jQuery; the code targets the specific wording in order to hide them unless the options button is clicked.
 
-  The JS for sorting the report columns was not written by me, it was found below and adapted to work on Koha’s report results.
+  The JS for sorting the report columns was not written by me, it was found and adapted to work on Koha’s report results (https://stackoverflow.com/questions/3160277/jquery-table-sort).
 
 
   There were changes to the marc / bib record in order to add a custom field for indicating that an item was requested for transfer to another branch (part of the Worn and Torn process).
