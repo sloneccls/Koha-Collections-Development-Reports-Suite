@@ -8,16 +8,16 @@ An Overview
 
   Some of these reports started as modifications of queries sent to the ByWater Partners lists, others were more or less written whole cloth as a way to replicate what our then-current software package for collections development did. The centerpiece of this is the Worn and Torn Items process, which comprises four reports. With this process it’s possible to identify items that are likely in need of replacement but that have a potential replacement copy at another location, allowing the staff to transfer an underused item to replace the worn copy, rather than buying a new replacement.
 
-  Because we share our catalog with our county college’s library, some extra modifications were needed to weed out some of the extra collection codes, branches, and item types for staff. This required some custom authorized values and additional clauses in the SQL that wouldn’t otherwise be necessary. The styling with CSS and jQuery is not really necessary for the reports to function either, however when developing this our goal was to come up something that was more user friendly to staff that otherwise would not be running reports. So a way to hide extra options on some reports, adding column sorting, adding a box to display the settings used on a report, and creating a dashboard were all figured out in order to make this seem more like a full-fledged module than a report.
+  Because we share our catalog with our county college’s library, some extra modifications were needed to weed out some of the extra collection codes, branches, and item types for staff. This required some custom authorized values and additional clauses in the SQL that wouldn’t otherwise be necessary. The styling with CSS and jQuery is not really necessary for the reports to function either, however when developing this our goal was to come up something that was more user friendly to staff that otherwise would not be running reports. Because of that, a way to hide extra options on some reports, adding column sorting, adding a box to display the settings used on a report, and creating a dashboard were all figured out in order to make this seem more like a full-fledged module than a report.
 
-  As such, a fair amount also went into facilitating the workflow, so that button clicks took staff as directly to the next step as possible.
+  In that same vein, a fair amount also went into facilitating the workflow so that button clicks took staff as directly to the next step as possible.
 
-  Hiding the options on the report parameters screens had to be done through clunky wording and jQuery; the code targets the specific wording in order to hide them unless the options button is clicked.
+  Hiding the options on the report parameters screens had to be done through clunky, but specific, wording and jQuery; the code targets the unique wording in order to hide them unless the options button is clicked.
 
   The JS for sorting the report columns was not written by me, it was found and adapted to work on Koha’s report results (https://stackoverflow.com/questions/3160277/jquery-table-sort).
 
 
-  There were changes to the marc / bib record in order to add a custom field for indicating that an item was requested for transfer to another branch (part of the Worn and Torn process).
+  There were also changes to the marc / bib record in order to add a custom field for indicating that an item was requested for transfer to another branch (part of the Worn and Torn process).
 
   NOTE: Many of these reports reference other reports by number (see especially the Worn and Torn report and the Dashboard), you will need to modify them to match what your actually report numbers will be if you use something like Atom you can replace all of these throughout the entire folder and subfolders without hunting around for them (see info below).
 
@@ -52,7 +52,7 @@ Configuration
       iii.	set 952$i to be managed in tab 10
       iv.	create a new authorized value category with your branches corresponding to each value (i.e. 1=Main Library)
       v.	set 952$i to use an authorized value category that has numbers for the values
-      vi.	you will need to have ByWater run a database update
+      vi.	you will need run a database update
   3.	Add a new damaged status of “Check again later”
     a.	We assigned this to value 10, you may need to change in report #4 if you use something different
   4.	Modify the reports for your system
